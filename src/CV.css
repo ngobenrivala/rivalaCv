@@ -1,0 +1,178 @@
+/* src/CV.css */
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cv-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cv-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.cv-header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.cv-section {
+    margin-bottom: 20px;
+}
+
+.cv-section h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    font-size: 2em;
+    color: #007BFF;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.cv-section h2:hover {
+    color: #0056b3;
+}
+
+.cv-section p, .cv-section ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.cv-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/* src/CV.css */
+.skills-section {
+    margin-top: 20px; /* Space above the skills section */
+}
+
+.skills-category {
+    margin-bottom: 20px; /* Space between categories */
+}
+
+.skills-list {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.skill-item {
+    background-color: #007BFF; /* Modern blue background */
+    color: white; /* White text for contrast */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for spacing */
+    margin: 5px; /* Space between items */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.skill-item:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+@media (max-width: 600px) {
+    .cv-container {
+        padding: 10px;
+    }
+
+    .cv-header h1 {
+        font-size: 2em;
+    }
+}
+
+.references-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove space between borders */
+    margin-top: 10px; /* Space above the table */
+}
+
+.references-table th, .references-table td {
+    border: 0px solid #ddd; /* Light border */
+    padding: 8px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+}
+
+.references-table th {
+    background-color: #007BFF; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.references-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+}
+
+.certificates-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove space between borders */
+    margin-top: 10px; /* Space above the table */
+}
+
+.certificates-table th, .certificates-table td {
+    border: 0px solid #ddd; /* Light border */
+    padding: 8px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+}
+
+.certificates-table th {
+    background-color: #007BFF; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.certificates-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+}
+
+.qualification-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove space between borders */
+    margin-top: 10px; /* Space above the table */
+}
+
+.qualification-table th, .qualification-table td {
+    border: 0px solid #ddd; /* Light border */
+    padding: 8px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+}
+
+.qualification-table th {
+    background-color: #007BFF; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.qualification-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+}
+
+.career-summary-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove space between borders */
+    margin-top: 10px; /* Space above the table */
+}
+
+.career-summary-table th, .career-summary-table td {
+    border: 0px solid #ddd; /* Light border */
+    padding: 8px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+}
+
+.career-summary-table th {
+    background-color: #007BFF; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.career-summary-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+}
